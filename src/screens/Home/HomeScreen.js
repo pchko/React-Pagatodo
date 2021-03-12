@@ -24,7 +24,7 @@ function HomeScreen(props) {
             </button>
 
             <hr />
-            <h5>Página creada por <a target="_blank" rel="noreferrer" href="https://github.com/pchko"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" style={{width: 20, height: 20, resize: "horizontal"}} alt="github"/> Ing. Rogelio Pacheco</a></h5>
+            <h5>Página creada por: Rogelio Pacheco <a target="_blank" rel="noreferrer" href="https://github.com/pchko"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" style={{width: 20, height: 20, resize: "horizontal"}} alt="github"/></a>&nbsp;<a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/rogelio-pacheco-martínez-b55906aa"><img src="https://image.flaticon.com/icons/png/512/174/174857.png" style={{width: 20}} alt="linkedin"/></a></h5>
         </div>
     )
 }
