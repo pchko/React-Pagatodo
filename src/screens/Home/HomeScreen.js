@@ -14,7 +14,7 @@ function HomeScreen(props) {
             
             <h1>Home</h1>
             <div>
-                <img src="https://www.tudecide.com/assets/images/empresas/banco-pagatodo.png" style={{height: 100}} />
+                <img src="https://www.tudecide.com/assets/images/empresas/banco-pagatodo.png" style={{height: 100}} alt="pagatodo"/>
             </div>
             <button
                 className="btn btn-primary"
@@ -24,7 +24,7 @@ function HomeScreen(props) {
             </button>
 
             <hr />
-            <h5>Página creada por <a target="_blank" href="https://github.com/pchko"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" style={{width: 20, height: 20, resize: "horizontal"}} /> Ing. Rogelio Pacheco</a></h5>
+            <h5>Página creada por <a target="_blank" rel="noreferrer" href="https://github.com/pchko"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" style={{width: 20, height: 20, resize: "horizontal"}} alt="github"/> Ing. Rogelio Pacheco</a></h5>
         </div>
     )
 }

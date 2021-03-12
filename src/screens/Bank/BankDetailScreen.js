@@ -25,12 +25,12 @@ function BankDetailScreen(props) {
         }
 
         getBank();
-    }, [])
+    }, [banks, idBank])
 
     return (
         <div className="row mt-5">
             <div className="col-2">
-                <img src={bank.url} className="img-thumbnail animate__animated animate_fadeInLeft"/>
+                <img src={bank.url} className="img-thumbnail animate__animated animate_fadeInLeft" alt={bank.bankName}/>
             </div>
             <div className="col-10">
                 <ul className="list-group list-group-flush">

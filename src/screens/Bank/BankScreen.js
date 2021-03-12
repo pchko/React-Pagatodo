@@ -14,7 +14,8 @@ function BankScreen() {
             if(banksContext.length === 0){
                 console.log("Consulta API");
                 let data = await ApiClient.getBanks().catch( (err) => {
-                    console.log({err});
+                    setBanksContext([]);
+                    setBanks([]);
                 });
                 data && setBanksContext(data);
                 data && setBanks(data);
@@ -25,7 +26,7 @@ function BankScreen() {
         }
 
         checkBanks();
-    }, [])
+    }, [banksContext, setBanksContext])
 
     return (
         <div className="card-columns animate__fadeIn">
