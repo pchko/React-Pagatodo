@@ -8,10 +8,10 @@ function BankCard( props ) {
     return (
         <div className="card ms-3">
             <div className="row no-gutters">
-                <div className="col-md-4">
+                <div className="col-md-2">
                     <img src={bank.url} className="card-img" alt={bank.bankName} />
                 </div>
-                <div className="col-md-8">
+                <div className="col-md-10">
                     <div className="card-body">
                         <h5 className="card-title">{bank.bankName}</h5>
                         <p className="card-text">{bank.description}</p>

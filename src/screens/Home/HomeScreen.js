@@ -11,7 +11,11 @@ function HomeScreen(props) {
 
     return (
         <div className="container mt-5">
+            
             <h1>Home</h1>
+            <div>
+                <img src="https://www.tudecide.com/assets/images/empresas/banco-pagatodo.png" style={{height: 100}} />
+            </div>
             <button
                 className="btn btn-primary"
                 onClick={handleClick}
