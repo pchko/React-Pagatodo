@@ -3,7 +3,8 @@ import { Link, NavLink } from 'react-router-dom'
 
 export const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
+        
+        <nav className="navbar navbar-expand-sm navbar-dark bg-dark" style={{paddingRight: 15, paddingLeft: 15}}>
             
             <Link 
                 className="navbar-brand" 
@@ -14,7 +15,6 @@ export const Navbar = () => {
 
             <div className="navbar-collapse">
                 <div className="navbar-nav">
-
                     <NavLink 
                         activeClassName="active"
                         className="nav-item nav-link" 
@@ -26,5 +26,6 @@ export const Navbar = () => {
                 </div>
             </div>
         </nav>
+        
     )
 }
